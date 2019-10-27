@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maike.beauty.mapper.DeliveryRidersMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.maike.beauty.entity.DeliveryRiders">
+        <id column="id" property="id" />
+        <result column="realname" property="realname" />
+        <result column="nickname" property="nickname" />
+        <result column="phone" property="phone" />
+        <result column="email" property="email" />
+        <result column="password" property="password" />
+        <result column="token" property="token" />
+        <result column="identity_id" property="identityId" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="user_pic" property="userPic" />
+        <result column="work_city" property="workCity" />
+    </resultMap>
+
+</mapper>

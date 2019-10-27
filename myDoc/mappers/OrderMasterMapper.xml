@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maike.beauty.mapper.OrderMasterMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.maike.beauty.entity.OrderMaster">
+        <id column="order_id" property="orderId" />
+        <result column="supplier_id" property="supplierId" />
+        <result column="order_sn" property="orderSn" />
+        <result column="customer_id" property="customerId" />
+        <result column="receiver_name" property="receiverName" />
+        <result column="receiver_phone" property="receiverPhone" />
+        <result column="province" property="province" />
+        <result column="city" property="city" />
+        <result column="area" property="area" />
+        <result column="address" property="address" />
+        <result column="payment_method" property="paymentMethod" />
+        <result column="order_money" property="orderMoney" />
+        <result column="discount_money" property="discountMoney" />
+        <result column="shipping_money" property="shippingMoney" />
+        <result column="payment_money" property="paymentMoney" />
+        <result column="shipping_comp_name" property="shippingCompName" />
+        <result column="shipping_sn" property="shippingSn" />
+        <result column="create_time" property="createTime" />
+        <result column="shipping_time" property="shippingTime" />
+        <result column="pay_time" property="payTime" />
+        <result column="receive_time" property="receiveTime" />
+        <result column="order_status" property="orderStatus" />
+        <result column="order_point" property="orderPoint" />
+        <result column="invoice_time" property="invoiceTime" />
+        <result column="modified_time" property="modifiedTime" />
+        <result column="shipping_type" property="shippingType" />
+        <result column="is_use_red_money" property="isUseRedMoney" />
+        <result column="coupon_id" property="couponId" />
+        <result column="is_rent_order" property="isRentOrder" />
+    </resultMap>
+
+</mapper>

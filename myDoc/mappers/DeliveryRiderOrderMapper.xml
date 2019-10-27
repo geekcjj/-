@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maike.beauty.mapper.DeliveryRiderOrderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.maike.beauty.entity.DeliveryRiderOrder">
+        <id column="id" property="id" />
+        <result column="riders_id" property="ridersId" />
+        <result column="order_id" property="orderId" />
+        <result column="start_add" property="startAdd" />
+        <result column="start_add_ll" property="startAddLl" />
+        <result column="target_add" property="targetAdd" />
+        <result column="target_add_ll" property="targetAddLl" />
+        <result column="current_add_ll" property="currentAddLl" />
+        <result column="create_time" property="createTime" />
+        <result column="finish_time" property="finishTime" />
+        <result column="status" property="status" />
+        <result column="delivery_star" property="deliveryStar" />
+        <result column="delivery_comment" property="deliveryComment" />
+        <result column="delivery_price" property="deliveryPrice" />
+    </resultMap>
+
+</mapper>

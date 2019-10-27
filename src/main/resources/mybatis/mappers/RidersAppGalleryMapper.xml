@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maike.beauty.mapper.RidersAppGalleryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.maike.beauty.entity.RidersAppGallery">
+        <id column="id" property="id" />
+        <result column="pic_url" property="picUrl" />
+        <result column="description" property="description" />
+        <result column="link_url" property="linkUrl" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+</mapper>
